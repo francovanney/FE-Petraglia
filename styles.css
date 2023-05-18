@@ -1,20 +1,41 @@
-@import 'variables.css';
+.main-title {
+    text-align: center;
+    padding: 20px;
+    color: #0483B5;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+}
+.form-label {
+    font-size: 12px;
+    margin-bottom: .4em;
+}
+#usuario {
+    border-color: #0483B5;
+    font-size: .9em;
+}
 
-.header {
-    position: absolute;
-    width: 100%;
-    height: 140px;
-    left: 0px;
-    top: 0px;
-    background: linear-gradient(88.52deg, #4F41F2 11.95%, #0483B5 44.85%, #0483B5 96.9%);
+#contraseña {
+    border-color: #0483B5;
+    font-size: .9em;
+}
+
+#btn-submit {
+    color: #FFF;
+    background-color: #05AFF2;
+    font-family: 'Roboto';
+    font-size: 14px;
+    border-color: #FFF;
+}
+
+#btn-submit:hover {
+    opacity: .6;
+    transition: .8s all;
+}
+
+@media (min-width: 768px) {
+    .form-main {
+      width: 35%;
+    }
   }
   
-.header-title {
-    font-family: "Kanit", sans-serif;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 1em;
-    letter-spacing: 2.5%;
-    text-align: center;
-    color: var(--White);
-  }
