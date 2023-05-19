@@ -1,0 +1,41 @@
+.main-title {
+    text-align: center;
+    padding: 20px;
+    color: #0483B5;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+}
+.form-label {
+    font-size: 12px;
+    margin-bottom: .4em;
+}
+#usuario {
+    border-color: #0483B5;
+    font-size: .9em;
+}
+
+#contraseña {
+    border-color: #0483B5;
+    font-size: .9em;
+}
+
+#btn-submit {
+    color: #FFF;
+    background-color: #05AFF2;
+    font-family: 'Roboto';
+    font-size: 14px;
+    border-color: #FFF;
+}
+
+#btn-submit:hover {
+    opacity: .6;
+    transition: .8s all;
+}
+
+@media (min-width: 768px) {
+    .form-main {
+      width: 35%;
+    }
+  }
+  
