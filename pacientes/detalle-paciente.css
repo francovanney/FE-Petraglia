@@ -1,0 +1,150 @@
+.container-titles {
+    width: 75%;
+    margin: 0 auto
+}
+
+
+.main-title {
+    text-align: left;
+    padding: 20px;
+    color: #0483B5;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 34px;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important
+}
+
+hr {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.container-cards {
+    width: 40%;
+}
+.custom-card {
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+h5 {
+    color: #0483B5;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+h3 {
+    color: #0483B5;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+h6 {
+  white-space: nowrap;
+}
+
+.actions {
+    padding-right: 20px
+}
+
+#icon-edit {
+    margin-right: 10px;
+}
+
+span {
+    color: #878787;
+}
+
+a {
+    text-decoration: none;
+}
+
+.search {
+    padding-left: 0px !important;
+}
+  table {
+    background-color: transparent;
+    border-collapse: collapse;
+    font-family: 'Roboto';
+  }
+  
+  table th, table td {
+    border: 1px solid #0483B5;
+  }
+
+.main-row {
+  color: #F5F5F5;
+  background-color: #0483B5;
+}
+  .main-row th, .main-row td {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+
+.main-row th:first-child {
+  border-top-left-radius: 10px;
+}
+.main-row th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.main-row:last-child td {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#button-filtro {
+  font-size: 14px;
+  width: 160px;
+  color: #0483B5;
+  background-color: white;
+}
+
+#icono-filtro {
+  color: #0483B5;
+}
+
+#button-agregar {
+  font-size: 14px;
+  width: 190px;
+  height: 40px;
+  color: #FFF;
+  background-color: #0483B5;
+}
+
+#icono-agregar {
+  color: #0483B5;
+}
+
+
+@media (max-width: 767.98px) {
+  .mb-mobile-20 {
+    margin-bottom: 20px;
+  }
+
+  #table-container {
+    font-size: 0.8em !important;
+  }
+}
+
+#table-container {
+  font-size: 1em;
+  width: 75%; 
+  margin: 0 auto;
+}
+
+.pagination {
+  font-size: 0.8em !important;
+}
+
+.page-link {
+    color: #0483B5;
+}
+
+.active>.page-link, .page-link.active {
+    background-color: #0483B5;
+    border-color: #0483B5;
+}
