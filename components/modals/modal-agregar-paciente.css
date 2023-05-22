@@ -46,7 +46,23 @@ h4 {
     border-color: #FFF;
 }
 
-#btn-submit:hover {
+#btn-submit:hover, #btn-cancel:hover, #btn-delete:hover  {
     opacity: .6;
     transition: .8s all;
+}
+
+.btn-cancel {
+    color: #0483B5;
+    background-color: #FFF;
+    font-family: 'Roboto';
+    font-size: 14px !important;
+    border-color: #0483B5;
+}
+
+.btn-delete {
+    color: #FFF;
+    background-color: #B50404;
+    font-family: 'Roboto';
+    font-size: 14px !important;
+    border-color: #FFF;
 }
