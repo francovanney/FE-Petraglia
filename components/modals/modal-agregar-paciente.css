@@ -51,7 +51,7 @@ h4 {
     transition: .8s all;
 }
 
-.btn-cancel {
+#btn-cancel {
     color: #0483B5;
     background-color: #FFF;
     font-family: 'Roboto';
@@ -59,7 +59,7 @@ h4 {
     border-color: #0483B5;
 }
 
-.btn-delete {
+#btn-delete {
     color: #FFF;
     background-color: #B50404;
     font-family: 'Roboto';
