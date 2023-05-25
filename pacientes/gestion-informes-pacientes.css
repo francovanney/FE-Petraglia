@@ -92,3 +92,7 @@ h6 {
 .pagination {
   font-size: 0.8em !important;
 }
+
+td {
+  cursor: pointer;
+}
