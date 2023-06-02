@@ -34,8 +34,9 @@ h4 {
     font-size: .9em;
 }
 
-.text-end {
-    font-size: .8em;
+.text-start {
+    color: #878787;
+    font-size: .7em;
 }
 
 #btn-submit {
@@ -65,4 +66,15 @@ h4 {
     font-family: 'Roboto';
     font-size: 14px !important;
     border-color: #FFF;
+}
+
+.form-control{
+    border: #0483B5 solid 1px;
+}
+.form-control::placeholder{
+    color: #ADB5BD !important;
+}
+
+label{
+    color: #68717A;
 }
