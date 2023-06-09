@@ -98,3 +98,8 @@ h6 {
 td {
   cursor: pointer;
 }
+
+#button-agregar-admin-alt {
+ background-color: transparent !important;
+ color: #0483B5
+}

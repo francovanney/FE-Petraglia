@@ -19,7 +19,7 @@
             href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
             rel="stylesheet">
         <link rel="stylesheet"
-            href="gestion-informes-detalle.css">
+            href="gestion-informes-admin.css">
         </link>
         <link
             href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -29,117 +29,114 @@
     <body>
         <!-- Header Big -->
         <iframe
-            src="../components/headers/small/header-small.html"
+            src="/components/headers/small/header-small.html"
             frameborder="0" width="100%"></iframe>
         <main>
-            <div class="container-titles">
-                <h1 class="main-title">Garcia, Rosa Maria</h1>
-                <h5>DNI: 33.346.485</h5>
-                <a href="#">
-                    <img src="/Icons/Edit.svg" alt="Edit" id="icon-edit"></img><span class="actions">Editar Paciente</span>
-                </a>
-                <a href="#">
-                    <span class="actions"><img src="/Icons/Delete.svg" alt="Edit" id="icon-edit"> Eliminar Paciente</span>
-                </a>
-                <hr>
-            </div>
+            <h2 class="main-title mb-5">Gestión de
+                Administradores</h2>
             <section>
                 <div>
                     <div class="container"
                         id="table-container">
-                        <div class="row mt-4">
-                            <div class="col-md-4 search">
-                                <h3>Informes</h3>
-                            </div>
-                            <div class="col-md-4 search">
-                                <div
-                                    class="input-group mb-3">
-                                    <input
-                                        type="text"
-                                        class="form-control"
-                                        placeholder="🔎 Buscar"
-                                        aria-label="Buscar">
-                                </div>
-                            </div>
-                            <div
-                                class="col-md-4 col-12 mb-md-0 mb-mobile-20 text-end p-0">
-                                <button
-                                    class="btn btn-primary"
-                                    type="button"
-                                    id="button-agregar">
-                                    <img src="/Icons/Informe.svg"
-                                        id="icono-agregar"
-                                        alt="Icono de filtrar">
-                                    Agregar Informe
+                        <div class="row mt-4 mb-3">
+                            <div class="col-md-4 col-12 mb-md-0 mb-mobile-20 text-center">
+                                <button class="btn btn-primary w-100" type="button" id="button-agregar-admin-alt">
+                                    <img src="/Icons/AddAlt.svg" id="icono-agregar" alt="Icono de filtrar">
+                                    Agregar Secretaria
                                 </button>
                             </div>
+                            <div class="col-md-4 col-12 mb-md-0 mb-mobile-20 text-center">
+                                <button class="btn btn-primary w-100" type="button" id="button-agregar-admin">
+                                    <img src="/Icons/Agregar.svg" id="icono-agregar" alt="Icono de filtrar">
+                                    Agregar administrador
+                                </button>
+                            </div>
+                            <div class="col-4">
 
-
-                            <table class="table mb-4">
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="row">
+                            <table
+                                class="table mb-4">
+                                <thead>
+                                    <tr
+                                        class="main-row">
+                                        <th
+                                            scope="col">
+                                            Nombre
+                                            y
+                                            Apellido
+                                        </th>
+                                        <th
+                                            scope="col">
+                                            Documento
+                                        </th>
+                                        <th
+                                            scope="col">
+                                            Fecha
+                                            de
+                                            carga
+                                        </th>
+                                    </tr>
+                                </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>
-                                        <img src="/Icons/Informe-tabla.svg"
-                                            alt="Icono informe">
-                                        </img>
-                                            NuevoDocumento.pdf
+                                    <tr
+                                        onclick="redirectToDetalle()">
+                                        <td>Lopez Rosa
                                         </td>
-                                        <td>20/12/2022
+                                        <td>33.346.485
                                         </td>
-                                        <td class="d-flex justify-content-around">
-                                            <img src="/Icons/icon-pencil.svg"
-                                            alt="Icono informe">
-                                        </img>
-                                        <img src="/Icons/icon-download.svg"
-                                        alt="Icono informe">
-                                        <img src="/Icons/DeleteColor.svg"
-                                        alt="Icono informe">
-                                    </img>
-                                    </img>
+                                        <td>2023-05-18
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>
-                                        <img src="/Icons/Informe-tabla.svg"
-                                            alt="Icono informe">
-                                        </img>
-                                            NuevoDocumento.pdf
+                                        <td>John
+                                            Doe
                                         </td>
-                                        <td>20/12/2022
+                                        <td>123456789
                                         </td>
-                                        <td class="d-flex justify-content-around">
-                                            <img src="/Icons/icon-pencil.svg"
-                                            alt="Icono informe">
-                                        </img>
-                                        <img src="/Icons/icon-download.svg"
-                                        alt="Icono informe">
-                                        <img src="/Icons/DeleteColor.svg"
-                                        alt="Icono informe">
-                                    </img>
-                                    </img>
+                                        <td>2023-05-19
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>
-                                        <img src="/Icons/Informe-tabla.svg"
-                                            alt="Icono informe">
-                                        </img>
-                                            NuevoDocumento.pdf
+                                        <td>Jane
+                                            Smith
                                         </td>
-                                        <td>20/12/2022
+                                        <td>987654321
                                         </td>
-                                        <td class="d-flex justify-content-around">
-                                            <img src="/Icons/icon-pencil.svg"
-                                            alt="Icono informe">
-                                        </img>
-                                        <img src="/Icons/icon-download.svg"
-                                        alt="Icono informe">
-                                        <img src="/Icons/DeleteColor.svg"
-                                        alt="Icono informe">
-                                    </img>
-                                    </img>
+                                        <td>2023-05-18
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>Jane
+                                            Smith
+                                        </td>
+                                        <td>987654321
+                                        </td>
+                                        <td>2023-05-18
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jane
+                                            Smith
+                                        </td>
+                                        <td>987654321
+                                        </td>
+                                        <td>2023-05-18
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jane
+                                            Smith
+                                        </td>
+                                        <td>987654321
+                                        </td>
+                                        <td>2023-05-18
+                                        </td>
+                                    </tr>
+                                    <!-- Agrega más filas según sea necesario -->
                                 </tbody>
                             </table>
 
