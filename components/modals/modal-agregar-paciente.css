@@ -7,11 +7,19 @@
 }
 
 .container-form {
-    width: 90%;
+    width: 100%;
 }
 
 h4 {
     color: #0483B5 ;
+    size: 24px;
+    font-weight: 400;
+}
+h5 {
+    font-size: 17px;
+    color: #0483B5 ;
+    font-weight: 400;
+    line-height: 16px;
 }
 
 #dni {
@@ -47,9 +55,9 @@ h4 {
     border-color: #FFF;
 }
 
-#btn-submit:hover, #btn-cancel:hover, #btn-delete:hover  {
+.btn-submit:hover, #btn-cancel:hover, #btn-delete:hover  {
     opacity: .6;
-    transition: .8s all;
+    transition: .6s all;
 }
 
 #btn-cancel {
@@ -70,6 +78,7 @@ h4 {
 
 .form-control{
     border: #0483B5 solid 1px;
+    color: #ADB5BD !important;
 }
 .form-control::placeholder{
     color: #ADB5BD !important;
@@ -77,4 +86,38 @@ h4 {
 
 label{
     color: #68717A;
+    font-size: 14px;
+}
+.form-label {
+    margin-bottom: .3em;
+}
+
+.modal-header {
+    border-bottom: white;
+}
+
+.btn-submit {
+    background: #0483B5 !important;
+    border-color: #0483B5 !important;
+}
+.btn-primary {
+    font-size: 14px;
+    width: 115px !important;
+    border-radius: 8px !important;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1) !important;
+
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    height: 32px;
+    align-items: center;
+}
+
+
+.btn-close {
+    background: white url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230483B5'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+}
+
+.modal-content {
+    border-color: white;
 }
